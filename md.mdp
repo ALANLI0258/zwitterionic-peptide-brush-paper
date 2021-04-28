@@ -1,0 +1,53 @@
+title   =     NVT Preequilibration
+integrator       = md     ; 
+dt               = 2E-3   ;         0.002 ps
+nsteps           = 50000000   ;     100 ns
+nstxout                 = 100000    ; 
+nstvout                 = 100000    ; 
+nstfout                 = 100000    ;
+nstxout-compressed      = 50000    ; 
+;compressed-x-precision  = 1000 ; 
+compressed-x-grps       = System      ; 
+nstlog                  = 50000 ; 
+nstenergy               = 50000 ; 
+energygrps              =Protein Non-Protein      ; 
+nstlist                  = 20      ; 
+rlist                    = 1      ; 
+cutoff-scheme            = Verlet ; 
+ns_type                  = grid   ; 
+pbc		    = xy 		    ; 2-D PBC
+nwall		= 2
+wall-atomtype	= Au Au
+wall-type	    = 9-3
+wall-density    = 4.6 4.6
+wall-ewald-zfac = 3
+wall-r-linpot   = 0.01
+ewald-geometry  = 3dc
+rvdw                = 1.2      ;
+rcoulomb            = 1.2      ; 
+vdw-type            = Cut-off ; 
+coulombtype         = PME     ; 
+DispCorr            = EnerPres   ; 
+fourierspacing      = 0.16 ; 
+pme_order           = 4         ; 
+tcoupl           = v-rescale ; 
+tc-grps          = Protein non-Protein      ;
+tau_t            = 0.1     0.1           ; 
+ref_t            = 298.15  298.15    ; 
+pcoupl            = No        ; 
+gen_vel           = yes    ; no: 
+gen_temp          = 298.15 ; 
+gen-seed          = -1     ; 
+constraints           = all-bonds ; 
+constraint-algorithm  = Lincs  ; 
+continuation          = no     ; 
+lincs-order           = 4      ; 
+lincs-iter            = 1      ; 
+freezegrps      = name_SG
+freezedim       = Y Y Y 
+
+
+
+
+
+

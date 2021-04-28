@@ -1,0 +1,4 @@
+[ atomtypes ]
+; name      at.num  mass     charge  ptype  sigma      epsilon
+;CG321        6      12.011    0.000  A      0.358141    0.023430
+Au          79     196.967   0.0000  A   2.62900e-01  22.1330e+00 
