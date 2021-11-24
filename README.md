@@ -15,7 +15,7 @@ volume = {54},
 number = {20},
 pages = {9565-9576},
 year = {2021},
-doi = {10.1021/acs.macromol.1c01229},
+doi = {10.1021/acs.macromol.1c01229}
 }`
 
 
