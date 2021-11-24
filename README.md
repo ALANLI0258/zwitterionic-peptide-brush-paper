@@ -7,7 +7,7 @@ https://doi.org/10.1021/acs.macromol.1c01229
 
 BibTex:
 
-`@article{Li2021,
+`@article{Li2021,<br>
 author = {Li, Minglun and Zhuang, Bilin and Yu, Jing},
 title = {Sequence--Conformation Relationship of Zwitterionic Peptide Brushes: Theories and Simulations},
 journal = {Macromolecules},
