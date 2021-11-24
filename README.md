@@ -1,6 +1,8 @@
 # zwitterionic-peptide-brush-paper
 Codes for "Effects of charge sequence on zwitterionic peptide brush conformation: theory and simulations"
+
 Macromolecules 2021, 54, 9565−9576.
+
 https://doi.org/10.1021/acs.macromol.1c01229
 
 BibTex:
